@@ -1,24 +1,34 @@
 {
-    "name": "bazilio/yii2-newrelic",
-    "description": "Newrelic integration for Yii2",
-    "type": "yii2-extension",
-    "license": "MIT",
-    "keywords": ["yii2", "newrelic", "debug", "monitoring"],
-    "authors": [
-        {
-            "name": "Vasily Ostanin",
-            "email": "bazilio91@gmail.com"
-        }
-    ],
-    "require": {
-        "sobanvuex/php-newrelic": "^2.0",
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "bazilio\\yii\\newrelic\\": ""
-        }
+  "name": "bazilio/yii2-newrelic",
+  "description": "Newrelic integration for Yii2",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "keywords": [
+    "yii2",
+    "newrelic",
+    "debug",
+    "monitoring"
+  ],
+  "authors": [
+    {
+      "name": "Vasily Ostanin",
+      "email": "bazilio91@gmail.com"
     }
-
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/id5/php-newrelic"
+    }
+  ],
+  "require": {
+    "id5/php-newrelic": "^2.0",
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "bazilio\\yii\\newrelic\\": ""
+    }
+  }
 }
