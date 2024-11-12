@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "id5/php-newrelic": "dev-master",
+    "id5/php-newrelic": "dev-main",
     "php": ">=5.4.0",
     "yiisoft/yii2": "*"
   },
