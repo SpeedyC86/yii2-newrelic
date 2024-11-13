@@ -1,5 +1,5 @@
 {
-  "name": "SpeedyC86/yii2-newrelic",
+  "name": "speedyc86/yii2-newrelic",
   "description": "Newrelic integration for Yii2",
   "type": "yii2-extension",
   "license": "MIT",
@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "SpeedyC86/php-newrelic": "dev-main",
+    "speedyc86/php-newrelic": "dev-main",
     "php": ">=5.4.0",
     "yiisoft/yii2": "*"
   },
