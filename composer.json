@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "speedyc86/php-newrelic": "dev-main",
+    "speedyc86/php-newrelic": "1.0",
     "php": ">=5.4.0",
     "yiisoft/yii2": "*"
   },
